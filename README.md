@@ -16,3 +16,14 @@ graphlan.py sp_tree.newick newtree.png --size 100 # it seems that 100 is the lim
 graphlan_annotate.py --annot sp_tree_annotation.txt sp_tree.newick sp_tree.xml
 graphlan.py sp_tree.xml sp_tree.png --size 25
 ```
+
+
+```
+scp samuelgamboa@super:/mnt/STORE1/bighome/samuelgamboa/Projects/taxPProValidation/remove_auc.sh .
+```
+
+Check path with
+
+```
+readlink -f <filename>
+```
