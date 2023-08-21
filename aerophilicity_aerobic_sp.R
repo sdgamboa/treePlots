@@ -40,8 +40,10 @@ l <- list(
             y = 'y'
         ),
     ## ring
-    aerobic_predicted_holdout_ring_color <-  aerobic_predicted |> 
-        filter(NCBI_ID %in% unique(aerobic_holdout$NCBI_ID)) |> 
+    aerobic_predicted_holdout_ring_color <-  predicted |> 
+        filter(Attribute == 'aerobic') |> 
+        filter(Evidence %in% ev2) |> # propagation 
+        filter(NCBI_ID %in% unique(holdout$NCBI_ID)) |> 
         select(NCBI_ID) |> 
         mutate(
             x = 'ring_color', # option name
@@ -50,9 +52,8 @@ l <- list(
         )
 )
 
-
 df <- bind_rows(l)
-fname <- 'aerobic_sp.annot'
+fname <- 'aerophilicity_aerobic_sp.annot'
 write.table(
     x = df, file = fname, quote = FALSE, col.names = FALSE, 
     row.names = FALSE, sep = '\t'
