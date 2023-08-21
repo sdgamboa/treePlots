@@ -1,4 +1,5 @@
 library(taxPPro)
+library(dplyr)
 library(data.tree)
 data('tree_list')
 data_tree <- as.Node(tree_list)
@@ -8,3 +9,18 @@ newick <- ToNewick(subtree, heightAttribute = NULL)
 fileConn <- file('~/Projects/CUNY/treePlots/sandbox/example_tree.txt')
 writeLines(newick, fileConn)
 close(fileConn)
+
+node_names <- unname(subtree$Get(function(node) node$name))
+df <- data.frame(x = node_names)
+
+## Add annotations for color
+df <- df |> 
+    mutate(
+        y = 'clade_marker_color',
+        z = ifelse(grepl('^s__', x), 'r', 'b')
+    )
+write.table(
+    x = df,
+    file = '~/Projects/CUNY/treePlots/sandbox/example_tree.annot',
+    sep = '\t', quote = FALSE, col.names = FALSE, row.names = FALSE
+)
