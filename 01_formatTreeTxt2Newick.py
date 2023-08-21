@@ -1,3 +1,5 @@
+
+## activate coda environment with ete3 for this
 from ete3 import Tree
-t = Tree('sp_tree.txt', format = 1)
-t.write(format = 1, outfile = 'sp_tree.newick')
+t = Tree('tree_sp.txt', format = 1)
+t.write(format = 1, outfile = 'tree_sp.newick')
