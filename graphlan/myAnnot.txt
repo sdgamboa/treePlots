@@ -1,0 +1,5 @@
+100090	clade_marker_color	r
+7707	clade_marker_color	r
+8782	clade_marker_color	g
+9598	clade_marker_color	b	
+9606	clade_marker_color	y

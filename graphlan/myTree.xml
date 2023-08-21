@@ -1,0 +1,43 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="false">
+    <clade>
+      <clade>
+        <name>100090</name>
+        <branch_length>1.0</branch_length>
+        <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">r</property>
+      </clade>
+      <clade>
+        <branch_length>1.0</branch_length>
+        <confidence type="unknown">1</confidence>
+        <clade>
+          <name>7707</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">r</property>
+        </clade>
+        <clade>
+          <branch_length>1.0</branch_length>
+          <confidence type="unknown">1</confidence>
+          <clade>
+            <name>8782</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">g</property>
+          </clade>
+          <clade>
+            <branch_length>1.0</branch_length>
+            <confidence type="unknown">1</confidence>
+            <clade>
+              <name>9598</name>
+              <branch_length>1.0</branch_length>
+              <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">b</property>
+            </clade>
+            <clade>
+              <name>9606</name>
+              <branch_length>1.0</branch_length>
+              <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">y</property>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>

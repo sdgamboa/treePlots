@@ -1,0 +1,11 @@
+library(taxPPro)
+library(data.tree)
+x <- taxizedb::classification('562', db = 'ncbi')
+data('tree_list')
+data_tree <- as.Node(tree_list)
+subtree <- data_tree$d__2$p__1224$c__1236$o__91347
+Prune(subtree, function(x) !grepl("t__", x$name))
+newick <- ToNewick(subtree, heightAttribute = NULL)
+fileConn <- file('~/sandbox/graphlan/subtree.txt')
+writeLines(newick, fileConn)
+close(fileConn)
