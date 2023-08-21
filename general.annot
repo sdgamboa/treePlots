@@ -6,6 +6,5 @@ clade_marker_size	50
 clade_marker_edge_width	0.01
 ring_internal_separator_thickness	1	0.5
 ring_internal_separator_thickness	2	0.5
-ring_internal_separator_thickness	3	0.5
 ring_height	1	0.5
 ring_height	2	0.5
