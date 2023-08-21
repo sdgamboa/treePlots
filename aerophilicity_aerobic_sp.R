@@ -52,6 +52,11 @@ l <- list(
         )
 )
 
+
+
+
+
+
 df <- bind_rows(l)
 fname <- 'aerophilicity_aerobic_sp.annot'
 write.table(
