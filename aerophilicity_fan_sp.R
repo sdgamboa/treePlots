@@ -32,7 +32,7 @@ l <- list(
             y = 'b'
         ),
     fac_predicted_node_color = predicted |> 
-        filter(Attribute == 'facultativel anaerobic') |> 
+        filter(Attribute == 'facultatively anaerobic') |> 
         filter(Evidence %in% ev2) |> # propagation
         select(NCBI_ID) |> 
         mutate(
