@@ -19,8 +19,34 @@ df <- df |>
         y = 'clade_marker_color',
         z = ifelse(grepl('^s__', x), 'r', 'b')
     )
+
+## Add annotations for size
+
+sp <- df |> 
+    filter(grepl('^s__', x)) |> 
+    pull(x)
+
+
+n_size1 <- round(length(sp) / 2)
+n_size2 <- length(sp) - size1
+df2 <- data.frame(
+    x = sp,
+    y = 'clade_marker_size',
+    z = as.character(c(rep(60, n_size1), rep(300, n_size2)))
+)
+
+
+df <- bind_rows(df, df2)
+
 write.table(
     x = df,
     file = '~/Projects/CUNY/treePlots/sandbox/example_tree.annot',
     sep = '\t', quote = FALSE, col.names = FALSE, row.names = FALSE
 )
+
+
+
+
+
+
+
