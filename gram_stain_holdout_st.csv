@@ -1,0 +1,682 @@
+"NCBI_ID","Taxon_name","Attribute","Attribute_value","Attribute_source","Evidence","Frequency","Confidence_in_curation","Attribute_type","Attribute_group","BacDive_ID","Type_strain","Score"
+"t__1032240","Aliarcobacter thereius LMG 24486","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2099,"yes",1
+"t__1032488","Neisseria shayeganii 871","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10496,"yes",1
+"t__1038929","Streptomyces xinghaiensis S187","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",16464,"yes",1
+"t__1051501","Bacillus mojavensis RO-H-1 = KCTC 3706","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1093,"yes",1
+"t__1068979","Amycolatopsis thermoflava N1165","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13239,"yes",1
+"t__1069080","Succinispira mobilis DSM 6222","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",105,"yes",1
+"t__1073969","Teredinibacter turnerae T8402","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24759,"no",1
+"t__1077974","Gordonia effusa NBRC 100432","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10611,"yes",1
+"t__1078846","Methylovulum miyakonense HT12","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",7213,"yes",1
+"t__1088721","Novosphingobium pentaromativorans US6-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14152,"yes",1
+"t__1096091","Labrys methylaminiphilus JLW10","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17410,"yes",1
+"t__1107311","Flavobacterium enshiense DK69","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133825,"yes",1
+"t__1108969","Burkholderia seminalis DSM 23518","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1987,"yes",1
+"t__1114263","Methylomicrobium lacus LW14","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134110,"yes",1
+"t__1114963","Novosphingobium barchaimii LL02","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",23265,"yes",1
+"t__1117313","Pseudoalteromonas arctica A 37-1-2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12701,"yes",1
+"t__1117647","Simiduia agarivorans SA1 = DSM 21679","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17906,"yes",1
+"t__1120943","Actinomyces gerencseriae DSM 6844","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",159,"yes",1
+"t__1120959","Agromyces italicus DSM 16388","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7276,"yes",1
+"t__1120983","Amorphus coralli DSM 19760","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17873,"yes",1
+"t__1120984","Amycolatopsis taiwanensis DSM 45107","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13263,"yes",1
+"t__1120995","Anaerosphaera aminiphila DSM 21120","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11852,"yes",1
+"t__1121015","Arenimonas oryziterrae DSM 21050 = YC6267","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17448,"yes",1
+"t__1121027","Aurantimonas coralicida DSM 14790","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",526,"yes",1
+"t__1121028","Aureimonas ureilytica DSM 18598 = NBRC 106430","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",533,"yes",1
+"t__1121087","Alkalicoccus chagannorensis DSM 18086","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1277,"yes",1
+"t__1121089","Priestia endophytica DSM 13796","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1203,"yes",1
+"t__1121097","Bacteroides graminisolvens DSM 19988 = JCM 15093","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1624,"yes",1
+"t__1121099","Bacteroides propionicifaciens DSM 19291 = JCM 14649","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1621,"yes",1
+"t__1121112","Bifidobacterium tsurumiense DSM 17777","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1740,"yes",1
+"t__1121114","Blautia producta ATCC 27340 = DSM 2950","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",18068,"yes",1
+"t__1121116","Brachymonas chironomi DSM 19884","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2909,"yes",1
+"t__1121123","Brevundimonas aveniformis DSM 17977","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2318,"yes",1
+"t__1121125","Brevundimonas naejangsanensis DSM 23858","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2320,"yes",1
+"t__1121129","Butyricimonas synergistica DSM 23225","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12522,"yes",1
+"t__1121278","Chitinimonas koreensis DSM 17726","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1993,"yes",1
+"t__1121289","Clostridiisalibacter paucivorans DSM 22131","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2869,"yes",1
+"t__1121299","Clostridium amylolyticum DSM 21864","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2850,"yes",1
+"t__1121301","Paramaledivibacter caminithermalis DSM 15212","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2815,"yes",1
+"t__1121317","Maledivibacter halophilus DSM 5387","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2740,"yes",1
+"t__1121319","Clostridium hydrogeniformans DSM 21757","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2856,"yes",1
+"t__1121324","Peptoclostridium litorale DSM 5388","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2741,"yes",1
+"t__1121327","Anaerotignum neopropionicum DSM 3847","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2765,"yes",1
+"t__1121331","Hathewaya proteolytica DSM 3090","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2648,"yes",1
+"t__1121355","Corynebacterium caspium DSM 44850","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3214,"yes",1
+"t__1121365","Corynebacterium mastitidis DSM 44356","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3178,"yes",1
+"t__1121383","Deinococcus murrayi DSM 11303","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3858,"yes",1
+"t__1121413","Desulfonatronovibrio hydrogenovorans DSM 9292","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4034,"yes",1
+"t__1121416","Desulfopila aestuarii DSM 18488","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4031,"yes",1
+"t__1121425","Desulfofundulus australicus DSM 11792","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11821,"yes",1
+"t__1121441","Maridesulfovibrio bastinii DSM 16055","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4147,"yes",1
+"t__1121446","Maridesulfovibrio ferrireducens DSM 16995","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4158,"yes",1
+"t__1121447","Maridesulfovibrio frigidus DSM 17176","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4157,"yes",1
+"t__1121461","Desulfovibrio psychrotolerans DSM 19430","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4167,"yes",1
+"t__1121468","Desulfovirgula thermocuniculi DSM 16036","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",16849,"yes",1
+"t__1121481","Dyadobacter alkalitolerans DSM 23607","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3780,"yes",1
+"t__1121482","Dyadobacter beijingensis DSM 21582","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",23879,"yes",1
+"t__1121483","Dyadobacter crusticola DSM 16708","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3777,"yes",1
+"t__1121866","Adlercreutzia mucosicola DSM 19490","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3076,"yes",1
+"t__1121868","Enterovibrio nigricans DSM 22720","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17218,"yes",1
+"t__1121871","Eremococcus coleocola DSM 15696","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",230,"yes",1
+"t__1121875","Eudoraea adriatica DSM 19308","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5730,"yes",1
+"t__1121880","Ferrimonas senticii DSM 18821","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5458,"yes",1
+"t__1121889","Flavobacterium filum DSM 17961","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5569,"yes",1
+"t__1121895","Flavobacterium rivuli WB 3.3-2 = DSM 21788","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5575,"yes",1
+"t__1121899","Flavobacterium suncheonense GH29-5 = DSM 17707","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5545,"yes",1
+"t__1121924","Glaciibacter superstes DSM 21135","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7505,"yes",1
+"t__1121925","Globicatella sulfidifaciens DSM 15739","gram stain variable",TRUE,"BacDive","exp","always","high","logical","gram stain",234,"yes",1
+"t__1121929","Gracilibacillus lacisalsi DSM 19029","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1464,"yes",1
+"t__1121934","Gulosibacter molinativorax DSM 13485","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7329,"yes",1
+"t__1121935","Hahella ganghwensis DSM 17046","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5851,"yes",1
+"t__1121939","Halomonas anticariensis FP35 = DSM 16096","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6043,"yes",1
+"t__1121949","Henriciella marina DSM 19595","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6221,"yes",1
+"t__1121950","Hespellia stercorisuis DSM 15480","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6356,"yes",1
+"t__1122130","Jonesia quinghaiensis DSM 15701","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6315,"yes",1
+"t__1122132","Kaistia granuli DSM 23481","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13564,"yes",1
+"t__1122133","Kaistia soli DSM 19436","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13565,"yes",1
+"t__1122137","Kordiimonas gwangyangensis DSM 19435 = JCM 12864","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17858,"yes",1
+"t__1122140","Kushneria indalinina DSM 14324","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",132885,"yes",1
+"t__1122153","Ligilactobacillus saerimneri DSM 16049","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6612,"yes",1
+"t__1122175","Leucobacter chironomi DSM 19883","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7355,"yes",1
+"t__1122176","Lewinella cohaerens DSM 23179","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14046,"yes",1
+"t__1122187","Lysobacter oryzae DSM 21044","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17495,"yes",1
+"t__1122194","Marinimicrobium agarilyticum DSM 16975","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",456,"yes",1
+"t__1122202","Marinobacterium rhizophilum DSM 18822","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",462,"yes",1
+"t__1122203","Marinococcus halotolerans DSM 16375","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1370,"yes",1
+"t__1122206","Marinomonas polaris DSM 16579","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11272,"yes",1
+"t__1122213","Maritalea myrionectae DSM 19524","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6196,"yes",1
+"t__1122234","Methylobacterium komagatae DSM 19563","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",7190,"yes",1
+"t__1122239","Microbacterium luticocti DSM 19459","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7433,"yes",1
+"t__1122604","Nevskia soli DSM 19509","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17661,"yes",1
+"t__1122606","Niastella yeongjuensis DSM 17621","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17757,"yes",1
+"t__1122609","Nocardioides halotolerans DSM 19273","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11138,"yes",1
+"t__1122612","Novosphingobium acidiphilum DSM 19966","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14164,"yes",1
+"t__1122614","Pseudooceanicola nanhaiensis DSM 18065","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13688,"yes",1
+"t__1122916","Paenibacillus assamensis DSM 18201","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11599,"yes",1
+"t__1122923","Paenibacillus pasadenensis DSM 19293","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11610,"yes",1
+"t__1122925","Paenibacillus sanguinis 2301083 = DSM 16941","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11578,"yes",1
+"t__1122926","Paenibacillus taiwanensis DSM 18679","gram stain variable",TRUE,"BacDive","exp","always","high","logical","gram stain",11604,"yes",1
+"t__1122928","Paludibacterium yongneupense DSM 18731","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10525,"yes",1
+"t__1122933","Paraoerskovia marina DSM 21750","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2386,"yes",1
+"t__1122939","Patulibacter americanus DSM 16676","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",17629,"yes",1
+"t__1122946","Pelobacter seleniigenes DSM 18267","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4225,"yes",1
+"t__1122954","Petrotoga mexicana DSM 14811","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17048,"yes",1
+"t__1122963","Pleomorphomonas oryzae DSM 16300","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",7226,"yes",1
+"t__1122967","Pontibacter roseus DSM 17521","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3829,"yes",1
+"t__1122969","Ponticoccus litoralis DSM 18986","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13846,"yes",1
+"t__1122983","Prevotella falsenii DSM 22864 = JCM 15124","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12563,"yes",1
+"t__1122987","Prevotella micans DSM 21469 = JCM 16134","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12564,"yes",1
+"t__1123003","Propionispora hippei DSM 15287","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17150,"yes",1
+"t__1123013","Pseudoclavibacter soli DSM 23366","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7479,"yes",1
+"t__1123014","Pseudogulbenkiania subflava DSM 22618","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10526,"yes",1
+"t__1123032","Psychrilyobacter atlanticus DSM 19335","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5784,"yes",1
+"t__1123060","Roseomonas aerilata DSM 19363","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",76,"yes",1
+"t__1123064","Roseomonas vinacea DSM 19362","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",73,"yes",1
+"t__1123065","Ruania albidiflava DSM 18029","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",17801,"yes",1
+"t__1123075","Ruminococcus gauvreauii DSM 19829","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",17685,"yes",1
+"t__1123239","Salsuginibacillus kocurii DSM 18087","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1548,"yes",1
+"t__1123244","Sciscionella marina DSM 45152","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13510,"yes",1
+"t__1123247","Sediminimonas qiaohouensis DSM 21189","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13849,"yes",1
+"t__1123262","Solirubrobacter soli DSM 22325","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14088,"yes",1
+"t__1123277","Spirosoma panaciterrae DSM 21099","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3822,"yes",1
+"t__1123295","Stella vacuolata DSM 5901 = ATCC 43931","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",65,"yes",1
+"t__1123299","Streptococcus castoreus DSM 17536","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14827,"yes",1
+"t__1123369","Thermoanaerobacter uzonensis DSM 18761","gram stain variable",TRUE,"BacDive","exp","always","high","logical","gram stain",16847,"yes",1
+"t__1123394","Thiofaba tepidiphila DSM 19618","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6097,"yes",1
+"t__1123397","Thiohalospira halophila DSM 15071","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4300,"yes",1
+"t__1123401","Thiothrix lacustris DSM 21227","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17084,"yes",1
+"t__1123493","Vibrio litoralis DSM 17657","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17312,"yes",1
+"t__1123503","Woodsholea maritima DSM 17123","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6218,"yes",1
+"t__1123515","Thiomicrorhabdus chilensis DSM 12352","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11925,"yes",1
+"t__1123516","Hydrogenovibrio halophilus DSM 15072","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11933,"yes",1
+"t__1124780","Nafulsella turpanensis ZLM-10","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133894,"yes",1
+"t__1125747","Paraglaciecola agarilytica NO2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134227,"yes",1
+"t__1129793","Paraglaciecola polaris LMG 21857","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",453,"yes",1
+"t__1131730","Neobacillus vireti LMG 21834","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1215,"yes",1
+"t__1131731","Schinkia azotoformans LMG 9581","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",599,"yes",1
+"t__1132444","Methylocystis rosea SV97","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",7217,"yes",1
+"t__1132509","Halococcus hamelinensis 100A6","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134189,"yes",1
+"t__1141662","Providencia burhodogranariea DSM 19968","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5091,"yes",1
+"t__1159491","Cronobacter malonaticus LMG 23826","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5237,"yes",1
+"t__1161099","Corynebacterium appendicis CIP 107643","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3198,"yes",1
+"t__1163409","Rhodanobacter thiooxydans LCS2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17518,"yes",1
+"t__1166018","Fibrella aestuarina BUZ 2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3835,"yes",1
+"t__1172194","Hydrocarboniphaga effusa AP103","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17658,"yes",1
+"t__1177179","Alcanivorax hongdengensis A-11-3","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133431,"yes",1
+"t__1185653","Planococcus antarcticus DSM 14505","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11959,"yes",1
+"t__1188249","Cereibacter changlensis JA139","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13656,"yes",1
+"t__1189613","Staphylococcus massiliensis CCUG 55927","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14673,"yes",1
+"t__1189621","Nitritalea halalkaliphila LW7","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24722,"yes",1
+"t__1191460","Acinetobacter venetianus RAG-1 = CIP 110063","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",8144,"yes",1
+"t__1196094","Snodgrassella alvi wkB2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",132915,"yes",1
+"t__1196324","Fictibacillus macauensis ZFHKF-1","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1245,"yes",1
+"t__1197906","Afipia birgiae 34632","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1782,"yes",1
+"t__1198114","Granulicella tundricola MP5ACTX9","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",22901,"yes",1
+"t__1198449","Aeropyrum camini SY1 = JCM 12091","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4196,"yes",1
+"t__1204722","Helcobacillus massiliensis 6401990","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3920,"yes",1
+"t__1204727","Paenibacillus urinalis 5402403","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11630,"yes",1
+"t__1204728","Paenibacillus provencensis 4401170","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11631,"yes",1
+"t__1205681","Bartonella rattaustraliani AUST/NH4","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1642,"yes",1
+"t__1206103","Pedobacter arcticus A12","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133706,"yes",1
+"t__1206721","Nocardia asiatica NBRC 100129","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10775,"yes",1
+"t__1206722","Nocardia araoensis NBRC 100135","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10786,"yes",1
+"t__1206735","Nocardia takedensis NBRC 100417","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10780,"yes",1
+"t__1209778","Salinisphaera japonica YTM-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133949,"yes",1
+"t__1210062","Nocardia acidivorans NBRC 108247","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10818,"yes",1
+"t__1210064","Nocardia altamirensis NBRC 108246","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10813,"yes",1
+"t__1210082","Nocardia jinanensis NBRC 108249","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10815,"yes",1
+"t__1210084","Nocardia miyunensis NBRC 108239","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10803,"yes",1
+"t__1210091","Nocardia ninae NBRC 108245","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10810,"yes",1
+"t__1210101","Nocardia xishanensis NBRC 101358","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10797,"yes",1
+"t__1211024","Afipia massiliensis 34633","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1781,"yes",1
+"t__1211579","Pseudomonas putida NBRC 14164","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12871,"yes",1
+"t__1212487","Bosea vestrisii 34635","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1790,"yes",1
+"t__1216971","Janibacter melonis NBRC 107855","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6263,"yes",1
+"t__1217655","Acinetobacter guillouiae CIP 63.46","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",8097,"yes",1
+"t__1218074","Paraburkholderia acidipaludis NBRC 101816","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133586,"yes",1
+"t__1219026","Rhodococcus triatomae NBRC 103116","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11039,"yes",1
+"t__1219039","Sphingomonas aquatilis NBRC 16722","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14237,"yes",1
+"t__1219041","Sphingomonas azotifigens NBRC 15497","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14246,"yes",1
+"t__1219046","Sphingomonas koreensis NBRC 16723","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14238,"yes",1
+"t__1219055","Sphingomonas soli NBRC 100801","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14245,"yes",1
+"t__1219356","Thauera butanivorans NBRC 103042","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13921,"yes",1
+"t__1220556","Paenibacillus barengoltzii NBRC 101215","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11612,"yes",1
+"t__1220561","Actinomadura kijaniata NBRC 14229","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",16929,"yes",1
+"t__1220577","Delftia tsuruhatensis NBRC 16741","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2952,"yes",1
+"t__1220578","Flavihumibacter petaseus NBRC 106054","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",133534,"yes",1
+"t__1220586","Amphibacillus sediminis NBRC 103570","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1406,"yes",1
+"t__1220589","Lysinibacillus odysseyi 34hs-1 = NBRC 100172","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1537,"yes",1
+"t__1220591","Bacillus sonorensis NBRC 101234 = KCTC 13918","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1201,"yes",1
+"t__1223489","Nocardia niwae NBRC 108934 = DSM 45340","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10827,"yes",1
+"t__1223502","Geobacillus jurassicus NBRC 107829","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1452,"yes",1
+"t__1223507","Alkalihalobacillus trypoxylicola NBRC 102646","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1294,"yes",1
+"t__1223515","Corynebacterium humireducens NBRC 106098 = DSM 45392","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3240,"yes",1
+"t__1223522","Thermobifida fusca NBRC 14071 = JCM 3263","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11256,"yes",1
+"t__1223528","Microbacterium oleivorans NBRC 103075","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7420,"yes",1
+"t__1223530","Wandonia haliotis NBRC 105642","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133540,"yes",1
+"t__1223548","Nocardia mikamii NBRC 108933","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10826,"yes",1
+"t__1223568","Dickeya dianthicola NCPPB 453","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4351,"yes",1
+"t__1227460","Haloferax larsenii JCM 13917","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24077,"yes",1
+"t__1227487","Halogeometricum pallidum JCM 14848","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134312,"yes",1
+"t__1230457","Haloterrigena limicola JCM 13563","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134201,"yes",1
+"t__1235794","Adlercreutzia caecimuris B7","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3077,"yes",1
+"t__1235834","Kosakonia sacchari SP1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",130318,"yes",1
+"t__1236494","Prevotella pleuritidis JCM 14110","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134238,"yes",1
+"t__1236498","Phocaeicola paurosaccharolyticus JCM 15092","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1625,"yes",1
+"t__1236514","Bacteroides stercorirosoris JCM 17103","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",131249,"yes",1
+"t__1236541","Shewanella algae JCM 14758","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134289,"yes",1
+"t__1238186","Leucobacter salsicius M1-8","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",132119,"yes",1
+"t__1239962","Mariniradius saccharolyticus AK6","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24725,"yes",1
+"t__1246475","Nocardiopsis chromatogenes YIM 90109","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",11222,"yes",1
+"t__1255277","Alicyclobacillus acidiphilus NBRC 100859","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",414,"yes",1
+"t__1255705","Bavariicoccus seileri WCC 4188","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",5363,"yes",1
+"t__1260625","Marinobacter salsuginis SD-14B","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",489,"yes",1
+"t__1276920","Paeniglutamicibacter gangotriensis Lz1y","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7610,"yes",1
+"t__1278309","Amphritea japonica ATCC BAA-1530","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134368,"yes",1
+"t__1278310","Amphritea balenae ATCC BAA-1529","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134369,"yes",1
+"t__1285583","Corynebacterium casei LMG S-19264","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3207,"yes",1
+"t__1286106","Methylophaga lonarensis MPL","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11908,"yes",1
+"t__1288298","Roseovarius mucosus DSM 17069","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13770,"yes",1
+"t__1288828","Gleimia hominis DSM 22168","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",194,"yes",1
+"t__1291734","Lacticaseibacillus nasuensis JCM 17158","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6703,"yes",1
+"t__1292027","Pseudomonas azotifigens DSM 17556","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13124,"yes",1
+"t__1293591","Lysinibacillus parviboronicapiens JCM 18861","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1539,"yes",1
+"t__1294022","Piscibacillus salipiscarius JCM 13188","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1544,"yes",1
+"t__1294023","Syntrophomonas palmitatica JCM 14374","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",16688,"yes",1
+"t__1294273","Roseibacterium elongatum DSM 19469","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13829,"yes",1
+"t__1297857","Streptococcus oralis subsp. dentisani 7747","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",24610,"yes",1
+"t__1298595","Veillonella rogosae JCM 15642","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17178,"yes",1
+"t__1300341","Croceitalea dokdonensis DOKDO 023","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134349,"yes",1
+"t__1300344","Isoptericola dokdonensis DS-3","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",138458,"yes",1
+"t__1300349","Erythrobacter dokdonensis DSW-74","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5396,"yes",1
+"t__1302723","Agromyces ulmi JCM 13315","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7270,"yes",1
+"t__1303677","Paenarthrobacter nitroguajacolicus JCM 14115","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7592,"yes",1
+"t__1303679","Pseudonocardia tetrahydrofuranoxydans JCM 14745","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13395,"yes",1
+"t__1304281","Chryseobacterium koreense CCUG 49689","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",23022,"yes",1
+"t__1304874","Aminiphilus circumscriptus DSM 16581","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17782,"yes",1
+"t__1305623","Isoptericola variabilis JCM 11754","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",12583,"yes",1
+"t__1305626","Pseudonocardia chloroethenivorans JCM 12679","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13386,"yes",1
+"t__1305629","Mycobacterium rufum JCM 16372","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",8576,"yes",1
+"t__1305856","Cellulomonas xylanilytica JCM 14281","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2368,"yes",1
+"t__1305858","Cellulomonas terrae JCM 14899","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2370,"yes",1
+"t__1305862","Mycolicibacterium crocinum JCM 16369","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",8574,"yes",1
+"t__1305864","Mycolicibacterium rutilum JCM 16371","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",8577,"yes",1
+"t__1307903","Acetobacter cerevisiae DSM 14362","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12,"yes",1
+"t__1307910","Acetobacter malorum DSM 14337","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13,"yes",1
+"t__1307935","Gluconacetobacter johannae DSM 13595","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",44,"yes",1
+"t__1307947","Gluconobacter japonicus NBRC 3271","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134355,"yes",1
+"t__1314752","Neobacillus drentensis NBRC 102427","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1213,"yes",1
+"t__1314754","Neobacillus fumarioli NBRC 102428","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1251,"yes",1
+"t__1318628","Marinobacter lipolyticus SM19","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",478,"yes",1
+"t__1321606","Mesobacillus selenatarsenatis SF-1","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1255,"yes",1
+"t__1328310","Yersinia similis Y228","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5219,"yes",1
+"t__1336246","Mitsuaria chitosanitabida ATCC BAA-476 = NBRC 102408","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134139,"yes",1
+"t__1348630","Neobacillus soli NBRC 102451","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1217,"yes",1
+"t__1348662","Corynebacterium argentoratense DSM 44202","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3161,"yes",1
+"t__1349757","Rossellomorea vietnamensis NBRC 101237","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1258,"yes",1
+"t__1349778","Paenibacillus humicus NBRC 102415","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11616,"yes",1
+"t__1349788","Sulfurospirillum cavolei NBRC 109482","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2232,"yes",1
+"t__1349791","Hydrogenophaga palleronii NBRC 102513","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2965,"yes",1
+"t__1353276","Olleya marilimosa CAM030","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5726,"yes",1
+"t__1368427","Rhizobium daejeonense L61","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13630,"yes",1
+"t__1379680","Nocardia amikacinitolerans NBRC 108937","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10715,"yes",1
+"t__1384049","Ureibacillus manganicus DSM 26584","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",23761,"yes",1
+"t__1384054","Arenimonas malthae CC-JY-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17446,"yes",1
+"t__1385518","Knoellia flava TL1","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6272,"yes",1
+"t__1385519","Knoellia aerolata DSM 18566","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6271,"yes",1
+"t__1385521","Knoellia subterranea KCTC 19937","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6270,"yes",1
+"t__1387568","Franconibacter helveticus LMG 23732","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4377,"yes",1
+"t__1388748","Siccibacter turicensis LMG 23730","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4378,"yes",1
+"t__1395571","Pseudomonas taeanensis MS-3","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24433,"yes",1
+"t__1403343","Deinococcus wulumuqiensis R13","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",23888,"no",1
+"t__1423729","Liquorilactobacillus cacaonum DSM 21116","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6681,"yes",1
+"t__1423735","Lapidilactobacillus concavus DSM 17758","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6636,"yes",1
+"t__1423749","Limosilactobacillus gastricus DSM 16045","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6617,"yes",1
+"t__1423750","Liquorilactobacillus ghanensis DSM 18630","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6657,"yes",1
+"t__1423753","Levilactobacillus hammesii DSM 16381","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6624,"yes",1
+"t__1423758","Lactobacillus hominis DSM 23910 = CRBIP 24.179","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6705,"yes",1
+"t__1423773","Levilactobacillus namurensis DSM 19117","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6667,"yes",1
+"t__1423774","Companilactobacillus nantensis DSM 16982","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6628,"yes",1
+"t__1423809","Lactobacillus taiwanensis DSM 21401","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6690,"yes",1
+"t__1435464","Bifidobacterium psychraerophilum DSM 22366","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1738,"yes",1
+"t__1437603","Bifidobacterium mongoliense DSM 21395","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1747,"yes",1
+"t__1437612","Bifidobacterium stercoris JCM 15918","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1748,"no",1
+"t__1440762","Dyella japonica DSM 16301","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17453,"yes",1
+"t__1441930","Chania multitudinisentens RB-25","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",132550,"yes",1
+"t__1442598","Aliarcobacter cibarius LMG 21996","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2096,"yes",1
+"t__1443111","Sulfitobacter guttiformis KCTC 32187","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13799,"yes",1
+"t__1443665","Aquimarina macrocephali JAMB N27","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133597,"yes",1
+"t__1445607","Bacteroides reticulotermitis JCM 10512","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133840,"yes",1
+"t__1449340","Carnobacterium jeotgali MS3","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2271,"yes",1
+"t__1449352","Streptacidiphilus albus JL83","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14871,"yes",1
+"t__1449353","Streptacidiphilus oryzae TH49","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14879,"yes",1
+"t__1451189","Corynebacterium falsenii DSM 44353","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3180,"yes",1
+"t__1454007","Pedobacter borealis DSM 19626","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14112,"yes",1
+"t__1458122","Metabacillus indicus LMG 22858","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1233,"yes",1
+"t__156889","Magnetococcus marinus MC-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133811,"yes",1
+"t__177439","Desulfotalea psychrophila LSv54","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",4030,"yes",1
+"t__224911","Bradyrhizobium diazoefficiens USDA 110","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133983,"yes",1
+"t__243164","Dehalococcoides mccartyi 195","gram stain variable",TRUE,"BacDive","exp","always","high","logical","gram stain",133751,"yes",1
+"t__252305","Pseudooceanicola batsensis HTCC2597","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13687,"yes",1
+"t__266117","Rubrobacter xylanophilus DSM 9941","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",14036,"yes",1
+"t__268739","Natronomonas moolapensis 8.8.11","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5898,"yes",1
+"t__272564","Desulfitobacterium hafniense DCB-2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11765,"yes",1
+"t__315749","Bacillus cytotoxicus NVH 391-98","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1323,"yes",1
+"t__340099","Thermoanaerobacter pseudethanolicus ATCC 33223","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",16848,"yes",1
+"t__357804","Psychromonas ingrahamii 37","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13519,"yes",1
+"t__363754","Rhizobium freirei PRF 81","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134045,"yes",1
+"t__391592","Caminibacter mediatlanticus TB-2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10428,"yes",1
+"t__391967","Salinispora arenicola ATCC BAA-917","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",8027,"yes",1
+"t__396588","Thioalkalivibrio sulfidiphilus HL-EbGr7","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133741,"yes",1
+"t__401526","Thermosinus carboxydivorans Nor1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17167,"yes",1
+"t__420662","Methylibium petroleiphilum PM1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",134120,"yes",1
+"t__441162","Burkholderia oklahomensis C6786","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1974,"yes",1
+"t__441769","Bacillus coahuilensis m4-4","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1280,"yes",1
+"t__443152","Marinobacter algicola DG893","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",482,"yes",1
+"t__446462","Actinosynnema mirum DSM 43827","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13211,"yes",1
+"t__446466","Cellulomonas flavigena DSM 20109","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2354,"yes",1
+"t__460265","Methylobacterium nodulans ORS 2060","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133674,"yes",1
+"t__468556","Jongsikchunia kroppenstedtii DSM 45133","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",10620,"yes",1
+"t__471854","Dyadobacter fermentans DSM 18053","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3776,"yes",1
+"t__479430","Actinospica robiniae DSM 44927","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",17635,"yes",1
+"t__483215","Bacteroides finegoldii DSM 17565","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1610,"yes",1
+"t__491205","Chryseobacterium hispalense DSM 25574","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",24039,"yes",1
+"t__497722","Marinospirillum celere DSM 18438","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",11277,"yes",1
+"t__525309","Limosilactobacillus antri DSM 16041","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6613,"yes",1
+"t__525363","Latilactobacillus sakei subsp. carnosus DSM 15831","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6602,"yes",1
+"t__529086","Chitinilyticum litopenaei DSM 21440","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10524,"yes",1
+"t__555778","Halothiobacillus neapolitanus c2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6089,"yes",1
+"t__558173","Corynebacterium doosanense CAU 212 = DSM 45436","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",3235,"yes",1
+"t__561175","Actinomadura flavalba DSM 45200","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",16999,"yes",1
+"t__564766","Marinococcus luteus DSM 23126","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1371,"yes",1
+"t__574966","Halomonas zhanjiangensis DSM 21076","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6072,"yes",1
+"t__583355","Coraliomargarita akajimensis DSM 45221","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17651,"yes",1
+"t__585502","Prevotella bergensis DSM 17361","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12544,"yes",1
+"t__593907","Cellulomonas gilvus ATCC 13127","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",140657,"yes",1
+"t__598659","Nautilia profundicola AmH","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",10430,"yes",1
+"t__632335","Caldicellulosiruptor kristjanssonii I77R1B","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",18026,"yes",1
+"t__632348","Caldicellulosiruptor kronotskyensis 2002","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",18029,"yes",1
+"t__634439","Vibrio marisflavi CECT 7928","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17358,"yes",1
+"t__639282","Deferribacter desulfuricans SSM1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3841,"yes",1
+"t__641524","Cyclobacterium qasimii M12-11B","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",133805,"yes",1
+"t__643956","Phaeovibrio sulfidiphilus NBRC 106163","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14026,"yes",1
+"t__648996","Thermovibrio ammonificans HB-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17646,"yes",1
+"t__649349","Leadbetterella byssophila DSM 17132","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3812,"yes",1
+"t__649639","Evansella cellulosilytica DSM 2522","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",1242,"yes",1
+"t__653733","Desulfurispirillum indicum S5","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2497,"yes",1
+"t__675635","Pseudonocardia dioxanivorans CB1190","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13392,"yes",1
+"t__682795","Granulicella mallensis MP5ACTX8","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",22899,"yes",1
+"t__693746","Oscillibacter valericigenes Sjm18-20","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17691,"yes",1
+"t__694427","Paludibacter propionicigenes WB4","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12496,"yes",1
+"t__695563","Lactobacillus amylovorus DSM 16698","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",6412,"no",1
+"t__700597","Streptomyces zinciresistens K42","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",133638,"yes",1
+"t__717959","Alistipes shahii WAL 8301","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14032,"yes",1
+"t__742725","Alistipes indistinctus YIT 12060","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",14033,"yes",1
+"t__742726","Barnesiella intestinihominis YIT 11860","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12519,"yes",1
+"t__742743","Dialister succinatiphilus YIT 11850","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17124,"yes",1
+"t__742817","Odoribacter laneus YIT 12061","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12521,"yes",1
+"t__746697","Aequorivita sublithincola DSM 14238","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5477,"yes",1
+"t__760154","Sulfurospirillum barnesii SES-3","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",2226,"yes",1
+"t__762982","Paraprevotella xylaniphila YIT 11841","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12570,"yes",1
+"t__762984","Bacteroides clarus YIT 12056","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",1628,"yes",1
+"t__768670","Calditerrivibrio nitroreducens DSM 19672","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3846,"yes",1
+"t__797299","Halostagnicola larsenii XH-48","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",5969,"yes",1
+"t__857293","Caloramator australicus RC3","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2523,"yes",1
+"t__858215","Thermoanaerobacterium xylanolyticum LX-11","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",18051,"yes",1
+"t__862515","Prevotella marshii DSM 16973 = JCM 13450","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12542,"yes",1
+"t__877466","Thermoflexus hugenholtzii JAD2","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",140665,"yes",1
+"t__880070","Cyclobacterium marinum DSM 745","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17717,"yes",1
+"t__880074","Barnesiella viscericola DSM 18177","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",12518,"yes",1
+"t__882083","Saccharomonospora marina XMU15","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",13436,"yes",1
+"t__882090","Methanolinea tarda NOBI-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17853,"yes",1
+"t__883081","Alloiococcus otitis ATCC 51267","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2249,"yes",1
+"t__888062","Dialister micraerophilus DSM 19965","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17123,"yes",1
+"t__891402","Halomonas sulfidaeris Esulfide1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",6039,"yes",1
+"t__891968","Acetomicrobium mobile DSM 13181","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17777,"yes",1
+"t__915437","Saccharibacillus sacchari DSM 19268","gram stain variable",TRUE,"BacDive","exp","always","high","logical","gram stain",11667,"yes",1
+"t__926556","Echinicola vietnamensis DSM 17526","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17718,"yes",1
+"t__926564","Promicromonospora kroppenstedtii DSM 19349","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",12604,"yes",1
+"t__926569","Anaerolinea thermophila UNI-1","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",501,"yes",1
+"t__929562","Emticicia oligotrophica DSM 17448","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",3783,"yes",1
+"t__929713","Niabella soli DSM 19437","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",17759,"yes",1
+"t__930171","Pseudarthrobacter phenanthrenivorans Sphe3","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",7622,"yes",1
+"t__947969","Cellulomonas carbonis T26","gram stain positive",TRUE,"BacDive","exp","always","high","logical","gram stain",2375,"yes",1
+"t__999548","Phaeobacter inhibens DSM 16374","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13731,"yes",1
+"t__999549","Leisingera caerulea DSM 24564","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13734,"yes",1
+"t__999611","Leisingera aquimarina DSM 24565","gram stain negative",TRUE,"BacDive","exp","always","high","logical","gram stain",13670,"yes",1
+"t__100226","Streptomyces coelicolor A3(2)","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__1028307","Klebsiella aerogenes KCTC 2190","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__1033837","Lactobacillus kefiranofaciens ZW3","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__1048245","Mycobacterium canettii CIPT 140010059","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__105559","Nitrosococcus watsonii C-113","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__123214","Persephonella marina EX-H1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__146891","Prochlorococcus marinus str. AS9601","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__155864","Escherichia coli O157:H7 str. EDL933","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__160490","Streptococcus pyogenes M1 GAS","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__170187","Streptococcus pneumoniae TIGR4","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__182082","Chlamydia pneumoniae TW-183","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__189518","Leptospira interrogans serovar Lai str. 56601","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__193567","Streptococcus pyogenes SSI-1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__194439","Chlorobaculum tepidum TLS","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__195102","Clostridium perfringens str. 13","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__195103","Clostridium perfringens ATCC 13124","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__196620","Staphylococcus aureus subsp. aureus MW2","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__196627","Corynebacterium glutamicum ATCC 13032","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__198804","Buchnera aphidicola str. Sg (Schizaphis graminum)","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__199310","Escherichia coli CFT073","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__204722","Brucella suis 1330","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__205918","Pseudomonas syringae pv. syringae B728a","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__210007","Streptococcus mutans UA159","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__211110","Streptococcus agalactiae NEM316","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__211586","Shewanella oneidensis MR-1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__212042","Anaplasma phagocytophilum str. HZ","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__214092","Yersinia pestis CO92","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__216594","Mycobacterium marinum M","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__218494","Streptococcus suis P1/7","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__218496","Tropheryma whipplei TW08/27","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__224308","Bacillus subtilis subsp. subtilis str. 168","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__224914","Brucella melitensis bv. 1 str. 16M","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__227377","Coxiella burnetii RSA 493","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__227882","Streptomyces avermitilis MA-4680 = NBRC 14893","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__228400","Histophilus somni 2336","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__228410","Nitrosomonas europaea ATCC 19718","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__233413","Mycobacterium tuberculosis variant bovis AF2122/97","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__234621","Rhodococcus erythropolis PR4","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__235279","Helicobacter hepaticus ATCC 51449","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__242231","Neisseria gonorrhoeae FA 1090","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243160","Burkholderia mallei ATCC 23344","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243161","Chlamydia muridarum str. Nigg","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243230","Deinococcus radiodurans R1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243243","Mycobacterium avium 104","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243265","Photorhabdus laumondii subsp. laumondii TTO1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__243276","Treponema pallidum subsp. pallidum str. Nichols","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__246200","Ruegeria pomeroyi DSS-3","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__251221","Gloeobacter violaceus PCC 7421","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__254945","Ehrlichia ruminantium str. Welgevonden","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__257309","Corynebacterium diphtheriae NCTC 13129","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__257310","Bordetella bronchiseptica RB50","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__257311","Bordetella parapertussis 12822","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__258594","Rhodopseudomonas palustris CGA009","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__260799","Bacillus anthracis str. Sterne","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__262316","Mycobacterium avium subsp. paratuberculosis K-10","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__264198","Cupriavidus pinatubonensis JMP134","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__265072","Methylobacillus flagellatus KT","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__265311","Mesoplasma florum L1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__266264","Cupriavidus metallidurans CH34","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__266834","Sinorhizobium meliloti 1021","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__267671","Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272559","Bacteroides fragilis NCTC 9343","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272561","Chlamydia trachomatis D/UW-3/CX","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272563","Clostridioides difficile 630","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272568","Gluconacetobacter diazotrophicus PA1 5","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272626","Listeria innocua Clip11262","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272631","Mycobacterium leprae TN","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__272831","Neisseria meningitidis FAM18","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__273068","Caldanaerobacter subterraneus subsp. tengcongensis MB4","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__273119","Ureaplasma parvum serovar 3 str. ATCC 700970","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__281309","[Bacillus thuringiensis] serovar konkukian str. 97-27","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__283165","Bartonella quintana str. Toulouse","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__288705","Renibacterium salmoninarum ATCC 33209","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__289380","Clostridium perfringens SM101","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__290315","Chlorobium limicola DSM 245","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__290340","Paenarthrobacter aurescens TC1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__291272","Candidatus Blochmannia pennsylvanicus str. BPEN","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__292415","Thiobacillus denitrificans ATCC 25259","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__292459","Symbiobacterium thermophilum IAM 14863","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__293613","Rickettsia canadensis str. McKiel","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__293826","Alkaliphilus metalliredigens QYMF","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__302409","Ehrlichia ruminantium str. Gardel","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__306263","Campylobacter lari RM2100","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__309798","Coprothermobacter proteolyticus DSM 5265","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__315456","Rickettsia felis URRWXCal2","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__315750","Bacillus pumilus SAFR-032","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__316056","Rhodopseudomonas palustris BisB18","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__316057","Rhodopseudomonas palustris BisB5","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__316273","Xanthomonas campestris pv. vesicatoria str. 85-10","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__316275","Aliivibrio salmonicida LFI1238","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__319225","Pelodictyon luteolum DSM 273","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__320373","Burkholderia pseudomallei 668","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__323097","Nitrobacter hamburgensis X14","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__323098","Nitrobacter winogradskyi Nb-255","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__324925","Pelodictyon phaeoclathratiforme BU-1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__325240","Shewanella baltica OS155","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__329726","Acaryochloris marina MBIC11017","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__331272","Burkholderia cenocepacia HI2424","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__334380","Orientia tsutsugamushi str. Ikeda","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__334390","Limosilactobacillus fermentum IFO 3956","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__338966","Pelobacter propionicus DSM 2379","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__344609","Shigella boydii CDC 3083-94","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__347834","Rhizobium etli CFN 42","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__349101","Cereibacter sphaeroides ATCC 17029","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__349519","Leuconostoc citreum KM20","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__349520","Paenibacillus polymyxa E681","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__349747","Yersinia pseudotuberculosis IP 31758","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__351348","Marinobacter nauticus VT8","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__354242","Campylobacter jejuni subsp. jejuni 81-176","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__355276","Leptospira borgpetersenii serovar Hardjo-bovis str. L550","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__357244","Orientia tsutsugamushi str. Boryong","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__359787","Staphylococcus aureus subsp. aureus JH1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__362242","Mycobacterium ulcerans Agy99","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__362663","Escherichia coli 536","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__362948","Ligilactobacillus salivarius UCC118","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__365659","Streptococcus mitis B6","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__368407","Methanoculleus marisnigri JR1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__370438","Pelotomaculum thermopropionicum SI","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__373903","Halothermothrix orenii H 168","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__374833","Neisseria meningitidis 053442","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__374930","Haemophilus influenzae PittEE","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__375451","Roseobacter denitrificans OCh 114","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__376619","Francisella tularensis subsp. holarctica LVS","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__376686","Flavobacterium johnsoniae UW101","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__377628","Yersinia pestis Nepal516","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__378753","Kocuria rhizophila DC2201","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__378806","Stigmatella aurantiaca DW4/3-1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__379731","Pseudomonas stutzeri A1501","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__380703","Aeromonas hydrophila subsp. hydrophila ATCC 7966","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__381666","Cupriavidus necator H16","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__386585","Escherichia coli O157:H7 str. Sakai","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__387662","Candidatus Carsonella ruddii PV","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__388396","Aliivibrio fischeri MJ11","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__388919","Streptococcus sanguinis SK36","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__391295","Streptococcus suis 05ZYH33","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__392499","Rhizorhabdus wittichii RW1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__393011","Francisella tularensis subsp. holarctica OSU18","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__393305","Yersinia enterocolitica subsp. enterocolitica 8081","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__393595","Alcanivorax borkumensis SK2","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__394","Sinorhizobium fredii NGR234","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__395491","Rhizobium leguminosarum bv. trifolii WSM1325","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__398577","Burkholderia ambifaria MC40-6","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__402612","Flavobacterium psychrophilum JIP02/86","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__402626","Ralstonia pickettii 12J","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__403833","Petrotoga mobilis SJ95","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__405416","Acinetobacter baumannii ACICU","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__405440","Xylella fastidiosa M12","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__405532","Bacillus cereus B4264","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__406817","Xenorhabdus nematophila ATCC 19061","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__406818","Xenorhabdus bovienii SS-2004","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__409438","Escherichia coli SE11","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__416276","Rickettsia massiliae MTU5","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__420247","Methanobrevibacter smithii ATCC 35061","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__423212","Legionella pneumophila 2300/99 Alcoy","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__425104","Shewanella sediminis HAW-EB3","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__430066","Brucella abortus S19","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__431943","Clostridium kluyveri DSM 555","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__434924","Coxiella burnetii CbuK_Q154","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__435590","Phocaeicola vulgatus ATCC 8482","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__436717","Acinetobacter oleivorans DR1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__439235","Desulfatibacillum alkenivorans AK-01","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__439292","[Bacillus] selenitireducens MLS10","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__444177","Lysinibacillus sphaericus C3-41","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__446465","Brachybacterium faecium DSM 4810","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__450851","Phenylobacterium zucineum HLK1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__452863","Pseudarthrobacter chlorophenolicus A6","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__454166","Salmonella enterica subsp. enterica serovar Agona str. SL483","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__454169","Salmonella enterica subsp. enterica serovar Heidelberg str. SL476","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__455488","Anaeromyxobacter dehalogenans 2CP-1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__455632","Streptomyces griseus subsp. griseus NBRC 13350","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__458817","Shewanella halifaxensis HAW-EB4","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__470137","Brucella suis ATCC 23445","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__471472","Chlamydia trachomatis 434/Bu","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__471853","Beutenbergia cavernae DSM 12333","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__471856","Jonesia denitrificans DSM 20603","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__471876","Streptococcus pyogenes NZ131","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__472759","Nitrosococcus halophilus Nc 4","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__476213","Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__477974","Candidatus Desulforudis audaxviator MP104C","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__484021","Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__485916","Desulfofarcimen acetoxidans DSM 771","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__485917","Pedobacter heparinus DSM 2366","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__486410","Streptococcus dysgalactiae subsp. equisimilis GGS_124","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__491915","Anoxybacillus flavithermus WK1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__491916","Rhizobium etli CIAT 652","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__491952","Marinomonas posidonica IVIA-Po-181","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__498214","Clostridium botulinum A3 str. Loch Maree","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__498761","Heliomicrobium modesticaldum Ice1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__502801","Yersinia pseudotuberculosis PB1/+","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__505682","Ureaplasma parvum serovar 3 str. ATCC 27815","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__507522","Klebsiella pneumoniae 342","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__508767","Clostridium botulinum E3 str. Alaska E43","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__509173","Acinetobacter baumannii AYE","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__511691","Streptococcus mutans NN2025","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__512562","Helicobacter pylori Shi470","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__512564","Mycoplasma crocodyli MP145","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__512566","Streptococcus pneumoniae G54","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__521006","Neisseria gonorrhoeae NCCP11945","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__521010","Borreliella bissettii DN127","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__521098","Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__521674","Planctopirus limnophila DSM 3776","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__525146","Desulfovibrio desulfuricans ATCC 27774","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__525284","Gardnerella vaginalis ATCC 14019","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__525381","Streptococcus pneumoniae TCH8431/19A","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__525898","Sulfurospirillum deleyianum DSM 6946","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__526222","Maridesulfovibrio salexigens DSM 2638","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__526226","Gordonia bronchialis DSM 43247","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__526227","Meiothermus silvanus DSM 9946","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__530564","Pirellula staleyi DSM 6068","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__543734","Lacticaseibacillus casei BL23","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__547559","Natrialba magadii ATCC 43099","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__548476","Corynebacterium aurimucosum ATCC 700975","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__548479","Mobiluncus curtisii ATCC 43063","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__550537","Salmonella enterica subsp. enterica serovar Enteritidis str. P125109","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__553199","Cutibacterium acnes SK137","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__553482","Streptococcus equi subsp. equi 4047","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__557433","Limosilactobacillus reuteri JCM 1112","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__557722","Pseudomonas aeruginosa LESB58","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__561230","Pectobacterium carotovorum subsp. carotovorum PC1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__561275","Mycobacterium tuberculosis variant bovis BCG str. Tokyo 172","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__561304","Mycobacterium leprae Br4923","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__562970","Kyrpidia tusciae DSM 2912","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__565575","Ureaplasma urealyticum serovar 10 str. ATCC 33699","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__570508","Helicobacter pylori P12","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__572264","Bacillus cereus 03BB102","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__572418","Mycobacterium tuberculosis variant africanum GM041182","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__573064","Methanocaldococcus fervens AG86","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__573065","Asticcacaulis excentricus CB 48","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__577650","Desulfobulbus propionicus DSM 2032","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__579405","Musicola paradisiaca Ech703","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__580050","Bifidobacterium animalis subsp. lactis Bl-04","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__582899","Hyphomicrobium denitrificans ATCC 51888","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__583345","Methylotenera mobilis JLW8","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__583358","Thermoanaerobacter mathranii subsp. mathranii str. A3","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__585056","Escherichia coli UMN026","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__585057","Escherichia coli IAI39","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__585397","Escherichia coli ED1a","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__590409","Dickeya parazeae Ech586","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__59374","Fibrobacter succinogenes subsp. succinogenes S85","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__59920","Prochlorococcus marinus str. NATL2A","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__62977","Acinetobacter baylyi ADP1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__633699","Lactobacillus johnsonii FI9785","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__634500","Erwinia billingiae Eb661","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__637387","Mycoplasmopsis fermentans JER","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__637910","Citrobacter rodentium ICC168","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__640131","Klebsiella variicola At-22","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__644042","Lactiplantibacillus plantarum JDM1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__644283","Micromonospora aurantiaca ATCC 27029","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__645462","Clostridioides difficile CD196","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__645463","Clostridioides difficile R20291","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__655816","Bacillus subtilis subsp. spizizenii str. W23","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__658172","Candidatus Liberibacter solanacearum CLso-ZC1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__661410","Methylorubrum extorquens DM4","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__662598","Neisseria meningitidis alpha14","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__662755","Corynebacterium resistens DSM 45100","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__665571","Spirochaeta thermophila DSM 6192","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__693977","Deinococcus proteolyticus MRP","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__693979","Bacteroides helcogenes P 36-108","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__696281","Desulforamulus ruminis DSM 2154","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__701177","Escherichia coli O55:H7 str. CB9615","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__701347","[Enterobacter] lignolyticus SCF1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__702459","Bifidobacterium bifidum PRL2010","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__714359","Bacillus thuringiensis BMB171","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__716541","Enterobacter cloacae subsp. cloacae ATCC 13047","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__717231","Flexistipes sinusarabici DSM 4947","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__720555","Bacillus atrophaeus 1942","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__743718","Isoptericola variabilis 225","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__743720","Pseudomonas fulva 12-X","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__743721","Pseudoxanthomonas suwonensis 11-1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__743965","Mycoplasma putrefaciens KS1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__748671","Lactobacillus crispatus ST1","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__748727","Clostridium ljungdahlii DSM 13528","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__749219","Moraxella catarrhalis RH4","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__76114","Aromatoleum aromaticum EbN1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__765962","Helicobacter pylori SJM180","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__83332","Mycobacterium tuberculosis H37Rv","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__858619","Corynebacterium variabile DSM 44702","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__862259","Mycoplasma mycoides subsp. capri LC str. 95010","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__862965","Haemophilus parainfluenzae T3T1","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__866768","Escherichia coli 'BL21-Gold(DE3)pLysS AG'","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__866775","Aerococcus urinae ACS-120-V-Col10a","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__868597","Stenotrophomonas maltophilia JV3","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__882","Desulfovibrio vulgaris str. Hildenborough","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__883062","Bifidobacterium bifidum S17","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__887712","Chlamydia trachomatis L2c","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__889932","Lactiplantibacillus plantarum ST-III","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__890402","Bifidobacterium longum subsp. longum BBMN68","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__903503","Candidatus Moranella endobia PCIT","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__926570","Acidiphilium multivorum AIU301","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__93060","Prochlorococcus marinus str. MIT 9215","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__935897","Haemophilus influenzae F3047","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__936155","Helicobacter felis ATCC 49179","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__936156","Bacillus subtilis BSn5","gram stain positive",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
+"t__979556","Microbacterium testaceum StLB037","gram stain negative",TRUE,"BacMap","nas","unknown","low","logical","gram stain",NA,NA,1
