@@ -2,11 +2,13 @@
 ## In this script everything will be at the species level
 library(dplyr)
 
+attribute_name <- 'gram stain positive'
+
 tree <- ape::read.tree(file = 'tree_sp.newick')
 nodes <-  unique(c(tree$node.label, tree$tip.label))
 
-holdout <- read.csv('aerophilicity_holdout_sp.csv')
-predicted <- read.csv('aerophilicity_prediction_sp.csv') |> 
+holdout <- read.csv('gram_stain_holdout_sp.csv')
+predicted <- read.csv('gram_stain_prediction_sp.csv') |> 
     mutate(NCBI_ID = paste0(sub('^(\\w).*$', '\\1__', Rank), NCBI_ID)) |> 
     filter(Frequency != 'never')
 
@@ -15,24 +17,24 @@ ev2 <- c('asr', 'inh')
     
 ## aerobic ####
 l <- list(
-    aerobic_holdout_ring_color = holdout |> 
-        filter(Attribute == 'aerobic') |> 
+    holdout_ring_color = holdout |> 
+        filter(Attribute == attribute_name) |> 
         select(NCBI_ID) |> 
         mutate(
             x = 'ring_color',
             y = '2',
             z = 'r'
         ),
-    aerobic_training_node_color = predicted |> 
-        filter(Attribute == 'aerobic') |> 
+    training_node_color = predicted |> 
+        filter(Attribute == attribute_name) |> 
         filter(Evidence %in% ev1) |> 
         select(NCBI_ID) |> 
         mutate(
             x = 'clade_marker_color',
             y = 'b'
         ),
-    aerobic_predicted_node_color = predicted |> 
-        filter(Attribute == 'aerobic') |> 
+    predicted_node_color = predicted |> 
+        filter(Attribute == attribute_name) |> 
         filter(Evidence %in% ev2) |> 
         select(NCBI_ID) |> 
         mutate(
@@ -40,8 +42,8 @@ l <- list(
             y = 'y'
         ),
     ## ring
-    aerobic_predicted_holdout_ring_color <-  predicted |> 
-        filter(Attribute == 'aerobic') |> 
+    predicted_holdout_ring_color = predicted |> 
+        filter(Attribute == attribute_name) |> 
         filter(Evidence %in% ev2) |> # propagation 
         filter(NCBI_ID %in% unique(holdout$NCBI_ID)) |> 
         select(NCBI_ID) |> 
@@ -53,7 +55,7 @@ l <- list(
 )
 
 df <- bind_rows(l)
-fname <- 'aerophilicity_aerobic_sp.annot'
+fname <- 'gram_stain_positive_sp.annot'
 write.table(
     x = df, file = fname, quote = FALSE, col.names = FALSE, 
     row.names = FALSE, sep = '\t'
