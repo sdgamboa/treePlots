@@ -35,8 +35,8 @@ cols <- c(
     'red', 'blue', 'yellow'
 )
 
-tree$tip.label <- NULL
-plotTree(tree, type = 'fan', fsize = 0.01, ftype = 'i')
+# tree$tip.label <- NULL
+plotTree(tree, type = 'fan', fsize = 0.01, ftype = 'i', lwd = 0.5)
 nodelabels(
     node = rownames(new_data),
     pie = new_data, piecol = cols, cex  = 0.2
