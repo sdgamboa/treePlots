@@ -9,8 +9,6 @@ tree <- read.tree('tree_sp.newick')
 
 data <- read_csv('gram_stain_prediction_sp.csv', show_col_types = FALSE)
 data <- data |> 
-    # filter(!grepl('^t__', NCBI_ID)) |> 
-    # filter(!grepl('^s__', NCBI_ID)) |> 
     filter(! Rank %in% c('species', 'strain')) |> 
     mutate(
         NCBI_ID = paste0(sub('^(\\w).*$', '\\1', Rank), '__', NCBI_ID)
