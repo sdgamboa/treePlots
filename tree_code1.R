@@ -10,8 +10,9 @@ library(ggnewscale)
 
 t <- read.tree('tree_sp.newick')
 data <- read_csv('gram_stain_prediction_sp.csv', show_col_types = FALSE)
+p <- ggtree(t, layout = 'circular', size = 0.025)
 
-sp_data <- data |> 
+tip_data <- data |> 
     filter(Rank == 'species') |> 
     mutate(
         NCBI_ID = paste0(sub('^(\\w).*$', '\\1', Rank), '__', NCBI_ID)
@@ -27,7 +28,10 @@ sp_data <- data |>
     filter(node %in% t$tip.label) |> 
     tibble::column_to_rownames(var = 'node')
 
-data <- data |> 
+
+
+
+node_data <- data |> 
     filter(! Rank %in% c('species', 'strain')) |> 
     mutate(
         NCBI_ID = paste0(sub('^(\\w).*$', '\\1', Rank), '__', NCBI_ID)
@@ -40,31 +44,27 @@ data <- data |>
     as.data.frame() |> 
     rename(node = NCBI_ID) |> 
     relocate(node, .after = last_col()) |> 
-    filter(node %in% t$node.label)
+    filter(node %in% t$node.label) |> 
+    tibble::column_to_rownames(var = 'node') 
+node_data <- node_data[t$node.label,] # I do this to make sure that I have the same order for nodes
+rownames(node_data) <- length(t$tip.label) + 1:t$Nnode
+node_data <- node_data[!is.na(rowSums(node_data)),]
+node_data$node <- as.integer(rownames(node_data))
 
-rownames(data) <- data$node
-data$node <- NULL
-data <- data[t$node.label,]
-rownames(data) <- length(t$tip.label) + 1:t$Nnode
-data <- data[!is.na(rowSums(data)),]
-data$node <- as.integer(rownames(data))
 
-myPies <- nodepie(data, cols = 1:3)
 
-df <- tibble::tibble(node=as.numeric(data$node), pies=myPies)
-p1 <- ggtree(t, layout = 'circular', size = 0.025)
-p2 <- p1 %<+% df
-p3 <- p2 + 
-    geom_plot(
-    data = td_filter(!isTip), 
-    mapping = aes(x = x, y = y, label = pies), 
-    vp.width = 0.01, vp.height = 0.01, 
-    hjust = 0.5, vjust = 0.5
+pies <- nodepie(node_data, cols = 1:3)
+df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
+p <- p %<+% df
+p_with_pies <- p + 
+    ggpp::geom_plot(
+        data = td_filter(!isTip), 
+        mapping = aes(x = x, y = y, label = pies), 
+        vp.width = 0.01, vp.height = 0.01, 
+        hjust = 0.5, vjust = 0.5
 ) 
 
 ggsave(
-    filename = 'test_tree_plot.png', plot = p3, width = 10, height = 10,
+    filename = 'test_tree_plot.png', plot = p_with_pies, width = 10, height = 10,
     units = 'in', dpi = 300
 )
-
-
