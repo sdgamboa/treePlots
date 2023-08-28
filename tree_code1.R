@@ -34,16 +34,17 @@ colnames(tip_data) <- gsub(' ', '_', colnames(tip_data))
 
 p_heatmap <- p |> 
     gheatmap(
-        data = tip_data, offset = 15, width = .3, 
-        colnames_angle = 90, colnames_offset_y = .25,
-        color = NA
-    ) +
-    scale_fill_viridis_c(option="B", name="Score")
+        data = tip_data, offset = 0.1, width = 0.1, 
+        # colnames_angle = 90, colnames_offset_y = .25,,
+        colnames = FALSE,
+        legend_title = 'Score',
+        color = NA, low = 'white', high = 'brown'
+    )
 
-ggsave(
-    filename = 'test_tree_plot.png', plot = p_heatmap, width = 10, height = 10,
-    units = 'in', dpi = 300
-)
+# ggsave(
+#     filename = 'test_tree_plot.png', plot = p_heatmap, width = 10, height = 10,
+#     units = 'in', dpi = 300
+# )
 
 
 # Add inset pies ----------------------------------------------------------
@@ -81,5 +82,5 @@ p_with_pies <- p_heatmap %<+%
 # Save plot ---------------------------------------------------------------
 ggsave(
     filename = 'test_tree_plot.png', plot = p_with_pies, width = 10, height = 10,
-    units = 'in', dpi = 300
+    units = 'in', dpi = 150
 )
