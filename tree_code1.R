@@ -10,7 +10,7 @@ library(ggnewscale)
 
 t <- read.tree('tree_sp.newick')
 data <- read_csv('gram_stain_prediction_sp.csv', show_col_types = FALSE)
-p <- ggtree(t, layout = 'circular', size = 0.025)
+p <- ggtree(t, layout = 'circular', size = 0.02)
 
 # add tip data for holdoutss ----------------------------------------------
 data_holdout <- read_csv('gram_stain_holdout_sp.csv', show_col_types = FALSE)
@@ -109,17 +109,23 @@ colnames(node_data) <- gsub(' ', '_', colnames(node_data))
 myColors <- c('red', 'blue', 'yellow')
 names(myColors) <- colnames(node_data)[1:3]
 
-pies <- nodepie(node_data, cols = 1:3, color = myColors)
-df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
-p_with_pies <- p_heatmap %<+% 
-    df +
-    ggpp::geom_plot(
-        data = td_filter(!isTip), 
-        mapping = aes(x = x, y = y, label = pies),
-        vp.width = 0.01, vp.height = 0.01, 
-        hjust = 0.5, vjust = 0.5,
-        show.legend = TRUE
-)
+# pies <- nodepie(node_data, cols = 1:3, color = myColors)
+pies <- nodepie(node_data, cols = 1:3)
+pies <- lapply(pies, function(g) g + scale_fill_manual(values = myColors))
+
+p_with_pies <- p_heatmap +
+    geom_inset(pies, width = .1, height = .1) 
+
+# df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
+# p_with_pies <- p_heatmap %<+% 
+#     df +
+#     ggpp::geom_plot(
+#         data = td_filter(!isTip), 
+#         mapping = aes(x = x, y = y, label = pies),
+#         vp.width = 0.01, vp.height = 0.01, 
+#         hjust = 0.5, vjust = 0.5,
+#         show.legend = TRUE
+# )
 
 # Save plot ---------------------------------------------------------------
 ggsave(
