@@ -71,9 +71,7 @@ p_heatmap <- p_heatmap |>
         data = data_holdout, offset = 1, width = 0.1, 
         # colnames_angle = 90, colnames_offset_y = .25,,
         colnames = FALSE,
-        # legend_title = 'Holdout score',
-        color = NA,
-        low = 'white', high = 'dodgerblue'
+        color = NA
     ) +
     scale_fill_gradient(
         name = 'Holdout score',
