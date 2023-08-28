@@ -110,11 +110,12 @@ p_with_pies <- p_heatmap %<+%
         data = td_filter(!isTip), 
         mapping = aes(x = x, y = y, label = pies), 
         vp.width = 0.01, vp.height = 0.01, 
-        hjust = 0.5, vjust = 0.5
-) 
+        hjust = 0.5, vjust = 0.5,
+        show.legend = TRUE
+)
 
 # Save plot ---------------------------------------------------------------
 ggsave(
     filename = 'test_tree_plot.png', plot = p_with_pies, width = 10, height = 10,
-    units = 'in', dpi = 300
+    units = 'in', dpi = 600
 )
