@@ -26,7 +26,9 @@ data_holdout <- data_holdout |>
     filter(node %in% t$tip.label) |> 
     tibble::column_to_rownames(var = 'node')
 data_holdout <- data_holdout[t$tip.label,]
-data_holdout <- data_holdout[!is.na(rowSums(data_holdout)),]
+rownames(data_holdout) <- t$tip.label
+# data_holdout <- data_holdout[!is.na(rowSums(data_holdout)),]
+data_holdout[is.na(data_holdout)] <- 0
 colnames(data_holdout) <- gsub(' ', '_', colnames(data_holdout))
 
 # Add data for output of propagation --------------------------------------
@@ -46,7 +48,9 @@ tip_data <- data |>
     filter(node %in% t$tip.label) |> 
     tibble::column_to_rownames(var = 'node')
 tip_data <- tip_data[t$tip.label,]
-tip_data <- tip_data[!is.na(rowSums(tip_data)),]
+rownames(tip_data) <- t$tip.label
+tip_data[is.na(tip_data)] <- 0
+# tip_data <- tip_data[!is.na(rowSums(tip_data)),]
 colnames(tip_data) <- gsub(' ', '_', colnames(tip_data))
 tip_data <- tip_data[, colnames(data_holdout)]
 
@@ -99,16 +103,21 @@ node_data <- data |>
     tibble::column_to_rownames(var = 'node') 
 node_data <- node_data[t$node.label,] # I do this to make sure that I have the same order for nodes
 rownames(node_data) <- length(t$tip.label) + 1:t$Nnode
-node_data <- node_data[!is.na(rowSums(node_data)),]
-node_data$node <- as.integer(rownames(node_data))
+node_data[is.na(node_data)] <- 0
 
-pies <- nodepie(node_data, cols = 1:3)
+# node_data <- node_data[!is.na(rowSums(node_data)),]
+node_data$node <- as.integer(rownames(node_data))
+colnames(node_data) <- gsub(' ', '_', colnames(node_data))
+myColors <- c('red', 'blue', 'yellow')
+names(myColors) <- colnames(node_data)[1:3]
+
+pies <- nodepie(node_data, cols = 1:3, color = myColors)
 df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
 p_with_pies <- p_heatmap %<+% 
     df +
     ggpp::geom_plot(
         data = td_filter(!isTip), 
-        mapping = aes(x = x, y = y, label = pies), 
+        mapping = aes(x = x, y = y, label = pies),
         vp.width = 0.01, vp.height = 0.01, 
         hjust = 0.5, vjust = 0.5,
         show.legend = TRUE
