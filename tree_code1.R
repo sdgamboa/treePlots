@@ -59,7 +59,7 @@ p_heatmap_ <- p |>
         color = NA
         # low = 'white', high = 'firebrick'
     ) +
-    scale_fill_viridis_c(option = 'C', name = 'Predicted score', na.value = 'white')
+    scale_fill_viridis_c(option = 'D', name = 'Predicted score', na.value = 'white')
 
 p_heatmap <- p_heatmap_ + new_scale_fill()
 p_heatmap <- p_heatmap |> 
@@ -68,10 +68,13 @@ p_heatmap <- p_heatmap |>
         # colnames_angle = 90, colnames_offset_y = .25,,
         colnames = FALSE,
         # legend_title = 'Holdout score',
-        color = NA
-        # low = 'white', high = 'dodgerblue'
+        color = NA,
+        low = 'white', high = 'dodgerblue'
     ) +
-    scale_fill_viridis_c(option = 'H', name = 'Holdout score', na.value = 'white')
+    scale_fill_gradient(
+        name = 'Holdout score',
+        low = 'white', high = 'dodgerblue4', na.value = 'white', 
+    )
 
 # ggsave(
 #     filename = 'test_tree_plot.png', plot = p_heatmap, width = 10, height = 10,
@@ -113,5 +116,5 @@ p_with_pies <- p_heatmap %<+%
 # Save plot ---------------------------------------------------------------
 ggsave(
     filename = 'test_tree_plot.png', plot = p_with_pies, width = 10, height = 10,
-    units = 'in', dpi = 150
+    units = 'in', dpi = 300
 )
