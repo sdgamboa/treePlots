@@ -12,7 +12,24 @@ t <- read.tree('tree_sp.newick')
 data <- read_csv('gram_stain_prediction_sp.csv', show_col_types = FALSE)
 p <- ggtree(t, layout = 'circular', size = 0.025)
 
-# Add heatmap for external rings ------------------------------------------
+# add tip data for holdoutss ----------------------------------------------
+data_holdout <- read_csv('gram_stain_holdout_sp.csv', show_col_types = FALSE)
+data_holdout <- data_holdout |> 
+    select(NCBI_ID, Attribute, Score) |> 
+    distinct() |> 
+    pivot_wider(
+        names_from = 'Attribute', values_from = 'Score', values_fill = 0
+    ) |> 
+    as.data.frame() |> 
+    rename(node = NCBI_ID) |> 
+    relocate(node, .after = last_col()) |> 
+    filter(node %in% t$tip.label) |> 
+    tibble::column_to_rownames(var = 'node')
+data_holdout <- data_holdout[t$tip.label,]
+data_holdout <- data_holdout[!is.na(rowSums(data_holdout)),]
+colnames(data_holdout) <- gsub(' ', '_', colnames(data_holdout))
+
+# Add data for output of propagation --------------------------------------
 tip_data <- data |> 
     filter(Rank == 'species') |> 
     mutate(
@@ -31,21 +48,35 @@ tip_data <- data |>
 tip_data <- tip_data[t$tip.label,]
 tip_data <- tip_data[!is.na(rowSums(tip_data)),]
 colnames(tip_data) <- gsub(' ', '_', colnames(tip_data))
+tip_data <- tip_data[, colnames(data_holdout)]
 
-p_heatmap <- p |> 
+p_heatmap_ <- p |> 
     gheatmap(
         data = tip_data, offset = 0.1, width = 0.1, 
         # colnames_angle = 90, colnames_offset_y = .25,,
         colnames = FALSE,
-        legend_title = 'Score',
-        color = NA, low = 'white', high = 'brown'
-    )
+        # legend_title = 'Predicted score',
+        color = NA
+        # low = 'white', high = 'firebrick'
+    ) +
+    scale_fill_viridis_c(option = 'C', name = 'Predicted score', na.value = 'white')
+
+p_heatmap <- p_heatmap_ + new_scale_fill()
+p_heatmap <- p_heatmap |> 
+    gheatmap(
+        data = data_holdout, offset = 1, width = 0.1, 
+        # colnames_angle = 90, colnames_offset_y = .25,,
+        colnames = FALSE,
+        # legend_title = 'Holdout score',
+        color = NA
+        # low = 'white', high = 'dodgerblue'
+    ) +
+    scale_fill_viridis_c(option = 'H', name = 'Holdout score', na.value = 'white')
 
 # ggsave(
 #     filename = 'test_tree_plot.png', plot = p_heatmap, width = 10, height = 10,
 #     units = 'in', dpi = 300
 # )
-
 
 # Add inset pies ----------------------------------------------------------
 node_data <- data |> 
