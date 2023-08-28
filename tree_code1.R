@@ -113,19 +113,19 @@ names(myColors) <- colnames(node_data)[1:3]
 pies <- nodepie(node_data, cols = 1:3)
 pies <- lapply(pies, function(g) g + scale_fill_manual(values = myColors))
 
-p_with_pies <- p_heatmap +
-    geom_inset(pies, width = .1, height = .1) 
+# p_with_pies <- p_heatmap +
+#     geom_inset(pies, width = .1, height = .1) 
 
-# df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
-# p_with_pies <- p_heatmap %<+% 
-#     df +
-#     ggpp::geom_plot(
-#         data = td_filter(!isTip), 
-#         mapping = aes(x = x, y = y, label = pies),
-#         vp.width = 0.01, vp.height = 0.01, 
-#         hjust = 0.5, vjust = 0.5,
-#         show.legend = TRUE
-# )
+df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
+p_with_pies <- p_heatmap %<+%
+    df +
+    ggpp::geom_plot(
+        data = td_filter(!isTip),
+        mapping = aes(x = x, y = y, label = pies),
+        vp.width = 0.01, vp.height = 0.01,
+        hjust = 0.5, vjust = 0.5,
+        show.legend = TRUE
+)
 
 # Save plot ---------------------------------------------------------------
 ggsave(
