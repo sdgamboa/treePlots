@@ -30,12 +30,15 @@ tip_data <- data |>
     tibble::column_to_rownames(var = 'node')
 tip_data <- tip_data[t$tip.label,]
 tip_data <- tip_data[!is.na(rowSums(tip_data)),]
+colnames(tip_data) <- gsub(' ', '_', colnames(tip_data))
 
-p_heatmap <- 
-    
-    gheatmap(p, data = tip_data)
-
-
+p_heatmap <- p |> 
+    gheatmap(
+        data = tip_data, offset = 15, width = .3, 
+        colnames_angle = 90, colnames_offset_y = .25,
+        color = NA
+    ) +
+    scale_fill_viridis_c(option="B", name="Score")
 
 ggsave(
     filename = 'test_tree_plot.png', plot = p_heatmap, width = 10, height = 10,
