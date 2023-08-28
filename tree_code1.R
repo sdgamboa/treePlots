@@ -130,5 +130,5 @@ p_with_pies <- p_heatmap %<+%
 # Save plot ---------------------------------------------------------------
 ggsave(
     filename = 'test_tree_plot.png', plot = p_with_pies, width = 10, height = 10,
-    units = 'in', dpi = 600
+    units = 'in', dpi = 150 
 )
