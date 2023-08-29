@@ -113,9 +113,6 @@ names(myColors) <- colnames(node_data)[1:3]
 pies <- nodepie(node_data, cols = 1:3)
 pies <- lapply(pies, function(g) g + scale_fill_manual(values = myColors))
 
-# p_with_pies <- p_heatmap +
-#     geom_inset(pies, width = .1, height = .1) 
-
 df <- tibble::tibble(node = as.numeric(node_data$node), pies = pies) # A tibble of pies (insets)
 p_with_pies <- p_heatmap %<+%
     df +
@@ -135,14 +132,11 @@ ggsave(
 
 
 # Prune tree --------------------------------------------------------------
-dim(data_holdout)
-dim(tip_data)
 
 keep_tips <- rownames(data_holdout[which(rowSums(data_holdout) > 0),])
 pruned_t <- drop.tip(t, t$tip.label[-match(keep_tips, t$tip.label)])
-subset_data_holdout <- data_holdout[pruned_t$tip.label,]
-subset_tip_data <- tip_data[pruned_t$tip.label,]
-subset_pies <- pies[pruned_t$node.label]
+subset_data_holdout <- data_holdout[keep_tips,] # Only tip data from holdouts
+subset_tip_data <- tip_data[keep_tips,] # includes tip data from predicted values for holdouts
 
 p2 <- ggtree(pruned_t, layout = 'circular', size = 0.02)
 p_heatmap2_ <- p2 |> 
@@ -154,7 +148,7 @@ p_heatmap2_ <- p2 |>
         color = NA
         # low = 'white', high = 'firebrick'
     ) +
-    scale_fill_viridis_c(option = 'D', name = 'Predicted score', na.value = 'white')
+    scale_fill_viridis_c(option = 'D', name = 'Score', na.value = 'white')
 
 p_heatmap2 <- p_heatmap2_ + new_scale_fill()
 p_heatmap2 <- p_heatmap2 |> 
@@ -164,23 +158,41 @@ p_heatmap2 <- p_heatmap2 |>
         colnames = FALSE,
         color = NA
     ) +
-    scale_fill_viridis_c(option = 'D', name = 'Predicted score', na.value = 'white')
+    scale_fill_viridis_c(option = 'D', name = 'Score', na.value = 'white')
     # scale_fill_gradient(
     #     name = 'Holdout score',
     #     low = 'white', high = 'dodgerblue4', na.value = 'white', 
     # )
 
+node_data2 <- data |> 
+    filter(! Rank %in% c('species', 'strain')) |> 
+    mutate(
+        NCBI_ID = paste0(sub('^(\\w).*$', '\\1', Rank), '__', NCBI_ID)
+    ) |> 
+    select(NCBI_ID, Attribute, Score) |> 
+    distinct() |> 
+    pivot_wider(
+        names_from = 'Attribute', values_from = 'Score'
+    ) |> 
+    as.data.frame() |> 
+    rename(node = NCBI_ID) |> 
+    relocate(node, .after = last_col()) |> 
+    filter(node %in% t$node.label) |> 
+    tibble::column_to_rownames(var = 'node') 
+node_data2 <- node_data2[pruned_t$node.label,] # I do this to make sure that I have the same order for nodes
+rownames(node_data2) <- length(pruned_t$tip.label) + 1:pruned_t$Nnode
+node_data2[is.na(node_data2)] <- 0
 
-node_labels <- sub('^\\w__(\\d+)$', '\\1', pruned_t$node.label)
-subset_node_data <- node_data[node_labels,]
-rownames(subset_node_data) <- node_labels 
-subset_node_data[is.na(subset_node_data)] <- 0
-subset_node_data$node <- rownames(subset_node_data)
+# node_data <- node_data[!is.na(rowSums(node_data)),]
+node_data2$node <- as.integer(rownames(node_data2))
+colnames(node_data2) <- gsub(' ', '_', colnames(node_data2))
+myColors <- c('red', 'blue', 'yellow')
+names(myColors) <- colnames(node_data2)[1:3]
 
-pies2 <- nodepie(subset_node_data, cols = 1:3)
+pies2 <- nodepie(node_data2, cols = 1:3)
 pies2 <- lapply(pies2, function(g) g + scale_fill_manual(values = myColors))
 
-df2 <- tibble::tibble(node = as.numeric(subset_node_data$node), pies = pies2) # A tibble of pies (insets)
+df2 <- tibble::tibble(node = as.numeric(node_data2$node), pies = pies2) # A tibble of pies (insets)
 p_with_pies2 <- p_heatmap2 %<+%
     df2 +
     ggpp::geom_plot(
@@ -195,6 +207,3 @@ ggsave(
     filename = 'test_tree_plot_subset.png', plot = p_with_pies2, width = 10, height = 10,
     units = 'in', dpi = 300 
 )
-
-
-
