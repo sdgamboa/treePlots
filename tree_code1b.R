@@ -205,16 +205,15 @@ node_data2 <- data |>
     filter(node %in% t$node.label) |> 
     tibble::column_to_rownames(var = 'node') 
 # node_data2 <- node_data2[pruned_t$node.label,] # I do this to make sure that I have the same order for nodes
-
-
+colnames(node_data2) <- gsub(' ', '_', colnames(node_data2))
+node_data2 <- node_data2[,colnames(subset_data_holdout)]
 node_data2 <- node_data2[original_node_ids,] # I do this to make sure that I have the same order for nodes
 rownames(node_data2) <- length(pruned_t$tip.label) + 1:pruned_t$Nnode
 node_data2[is.na(node_data2)] <- 0
 
 # node_data <- node_data[!is.na(rowSums(node_data)),]
 node_data2$node <- as.integer(rownames(node_data2))
-colnames(node_data2) <- gsub(' ', '_', colnames(node_data2))
-myColors <- c('red', 'blue', 'yellow')
+myColors <- c('blue', 'red', 'yellow')
 names(myColors) <- colnames(node_data2)[1:3]
 
 pies2 <- nodepie(node_data2, cols = 1:3, alpha = 0.3)
