@@ -232,8 +232,8 @@ p_with_pies2 <- p_heatmap2 %<+%
     )
 
 ggsave(
-    filename = 'test_tree_plot_subset.png', plot = p_with_pies2, width = 10, height = 10,
-    units = 'in', dpi = 300 
+    filename = 'test_tree_plot_subset.png', plot = p_with_pies2, width = 15, height = 15,
+    units = 'in', dpi = 600 
 )
 
 # ggsave(
